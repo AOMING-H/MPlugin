@@ -180,6 +180,20 @@ public class PluginManager {
 		return packageList;
 	}
 
+	public BasePluginInterface loadPlugin(String packageName)
+			throws ClassNotFoundException, InstantiationException,
+			IllegalAccessException, IllegalArgumentException,
+			InvocationTargetException, NoSuchMethodException {
+		return loadClass(packageName, packageName + DEFAULT_CLASS_NAME);
+	}
+
+	public BasePluginInterface loadPlugin(PluginInfo pluginInfo)
+			throws ClassNotFoundException, InstantiationException,
+			IllegalAccessException, IllegalArgumentException,
+			InvocationTargetException, NoSuchMethodException {
+		return loadPlugin(pluginInfo.mPackageInfo.packageName);
+	}
+
 	/**
 	 * 从指定包中获取某个类的实例，无参
 	 * @param packageName 包名

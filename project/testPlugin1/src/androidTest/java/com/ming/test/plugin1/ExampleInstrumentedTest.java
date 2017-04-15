@@ -1,4 +1,4 @@
-package com.ming.test.plugin;
+package com.ming.test.plugin1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

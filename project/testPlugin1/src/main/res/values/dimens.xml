@@ -1,0 +1,22 @@
+<resources>
+	<dimen name="title_height">48dp</dimen>
+	<dimen name="padding_2dp">2dp</dimen>
+	<dimen name="padding_5dp">5dp</dimen>
+	<dimen name="padding_10dp">10dp</dimen>
+	<dimen name="margin_5dp">5dp</dimen>
+	<dimen name="margin_20dp">20dp</dimen>
+	
+	<dimen name="padding_8dp">8dp</dimen>
+	<dimen name="padding_16dp">16dp</dimen>
+	<dimen name="padding_24dp">24dp</dimen>
+	
+	
+	<dimen name="margin_8dp">8dp</dimen>
+	<dimen name="margin_16dp">16dp</dimen>
+	<dimen name="margin_24dp">24dp</dimen>
+	<dimen name="margin_40dp">40dp</dimen>
+	<dimen name="margin_48dp">48dp</dimen>
+	
+	
+	<dimen name="edit_hight">40sp</dimen>
+</resources>

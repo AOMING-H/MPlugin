@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/item_device_root_layout"
+    android:id="@+id/item_plugin_root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
@@ -10,13 +10,13 @@
         android:layout_height="wrap_content" >
 
         <TextView
-            android:id="@+id/tx_plugin_name"
+            android:id="@+id/tx_plugin_id"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.5"
             android:gravity="center"
             android:padding="@dimen/padding_8dp"
-            android:text="设备名称" />
+            android:text="插件ID" />
     </LinearLayout>
 
     <View

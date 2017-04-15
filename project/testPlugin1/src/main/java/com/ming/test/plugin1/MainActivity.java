@@ -1,4 +1,4 @@
-package com.ming.test.plugin;
+package com.ming.test.plugin1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

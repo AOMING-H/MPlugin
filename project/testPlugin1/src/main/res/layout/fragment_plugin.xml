@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/padding_8dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_plugin_id"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/padding_24dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="插件ID：" />
+
+        <TextView
+            android:id="@+id/tv_plugin_version"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/padding_24dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="插件版本：" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_plugin_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="测试按钮1" />
+
+        <Button
+            android:id="@+id/btn_plugin_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="测试按钮2" />
+
+    </LinearLayout>
+
+</LinearLayout>

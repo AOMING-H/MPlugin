@@ -1,4 +1,4 @@
-package com.ming.test.plugin;
+package com.ming.test.plugin1;
 
 import org.junit.Test;
 
