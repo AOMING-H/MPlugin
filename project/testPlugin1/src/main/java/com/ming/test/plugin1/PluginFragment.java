@@ -37,10 +37,10 @@ public class PluginFragment extends Fragment implements View.OnClickListener{
 		btn2 = (Button) view.findViewById(R.id.btn_plugin_2);
 
 		btn1.setOnClickListener(this);
-		btn1.setOnClickListener(this);
+		btn2.setOnClickListener(this);
 
-		tvID.setText("设备ID："+mBaseDeviceInfo.getId());
-		tvVersion.setText("设备版本：" + mBaseDeviceInfo.getVersion());
+		tvID.setText("设备ID："+ mBasePluginInfo.getId());
+		tvVersion.setText("设备版本：" + mBasePluginInfo.getVersion());
 	}
 
 	@Override
@@ -56,8 +56,8 @@ public class PluginFragment extends Fragment implements View.OnClickListener{
 			break;
 		}
 	}
-	private BasePluginInfo mBaseDeviceInfo;
-	public void setDeviceDriver(BasePluginInfo mBaseDeviceInfo) {
-		this.mBaseDeviceInfo = mBaseDeviceInfo;
+	private BasePluginInfo mBasePluginInfo;
+	public void setPluginInfo(BasePluginInfo mBasePluginInfo) {
+		this.mBasePluginInfo = mBasePluginInfo;
 	}
 }

@@ -35,8 +35,14 @@ public class DefaultPlugin implements BasePluginInterface {
         return mBaseDeviceInfo;
     }
 
+    private PluginFragment pluginFragment;
     @Override
     public Fragment getFragment() {
-        return null;
+        if(pluginFragment == null){
+            pluginFragment = new PluginFragment();
+            pluginFragment.setPluginInfo(mBaseDeviceInfo);
+        }
+
+        return pluginFragment;
     }
 }
